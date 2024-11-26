@@ -5,7 +5,11 @@
 }
 
 img {
-    width: 100vh;
+    position: absolute;
+    object-position: 50% 50%;
+    top: 0;
+    right: 0;
+    width: 100%;
 }
 
 header {
