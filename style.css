@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Questrial", sans-serif;
 }
 
 img {
@@ -23,12 +24,13 @@ nav {
     height: 92px;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(146, 165, 245);
+    background-color: rgb(255, 255, 255);
     border-radius: 2px;
     position: fixed;
     left: 5%;
     align-items: center;
     top: 30px;
+    z-index: 1000;
 }
 
 .nav-left {
@@ -77,3 +79,44 @@ nav {
     background-color: black;
     color: white;
 }
+
+.section-left {
+    width: 1500px;
+    height: 300px;
+    position: absolute;
+    top: 237px;
+    right: 133px;
+}
+
+.heading_1 {
+    font-size: 56px;
+    color: #FFFDF2;
+    font-weight: 100;
+}
+
+.heading_2 {
+    font-size: 56px;
+    color: #FFFDF2;
+    font-weight: 100;
+}
+
+.section-left p {
+    font-size: 22px;
+    width: 493px;
+    color: #FFFDF2;
+    margin-top: 10px;
+    line-height: 28px;
+    margin-left: 2px;
+}
+
+.section-left button {
+    width: 197px;
+    height: 56px;
+    border:none;
+    border-radius: 38px;
+    background-color: #FFFDF2;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    font-size: 18px;
+}
+
