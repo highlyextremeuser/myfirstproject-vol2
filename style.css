@@ -120,3 +120,78 @@ nav {
     font-size: 18px;
 }
 
+form {
+    width: 745px;
+    height: 504px;
+    position: absolute;
+    right: 68px;
+    top: 540px;
+}
+
+.form-container {
+    width: 100%;
+    height: 100%;
+    background-color: #FFF9AF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.form-top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-top h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+.form-top p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+   gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group input {
+    background-color: transparent;
+    border: none;
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 200px;
+    height: 18px;
+}
+
+#rooms {
+    width: 200px;
+    background-color: transparent;
+}
+
+#services {
+    background-color: transparent;
+}
+
+.form-footer {
+    margin-top: 30px;
+}
+
+.form-footer button {
+    width: 216px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
